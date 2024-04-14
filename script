@@ -1,3 +1,3 @@
-CREATE USER 'manh'@'%' IDENTIFIED BY 'manh';
-GRANT ALL PRIVILEGES ON db_example.* TO 'manh'@'%';
+CREATE USER 'root'@'%' IDENTIFIED BY 'mypassword';
+GRANT ALL PRIVILEGES ON db_example.* TO 'root'@'%';
 FLUSH PRIVILEGES;
